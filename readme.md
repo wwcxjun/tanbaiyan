@@ -30,6 +30,8 @@ PHP版本 >=7.1.3
 
 以上代码均在项目根目录执行
 
+需要将运行目录改为 `public` 而不是根目录，因为项目依赖Laravel
+
 ## 示例
 ![](https://www.tanbaiyan.com/images/1.jpg)
 
