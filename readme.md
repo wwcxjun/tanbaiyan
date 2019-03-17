@@ -20,13 +20,15 @@ PHP版本 >=7.1.3
 ## 使用
 1. 第一步当然是下载代码
 
-2. 执行命令 `cp .env.example .env`
+2. 执行命令 `composer update`
 
-3. 执行命令 `php artisan key:generate`
+3. 执行命令 `cp .env.example .env`
 
-4. 打开.env文件 配置数据库及小程序Appid和AppSecret
+4. 执行命令 `php artisan key:generate`
 
-5. 执行命令 `php artisan migrate`
+5. 打开.env文件 配置数据库及小程序Appid和AppSecret
+
+6. 执行命令 `php artisan migrate`
 
 以上代码均在项目根目录执行
 
